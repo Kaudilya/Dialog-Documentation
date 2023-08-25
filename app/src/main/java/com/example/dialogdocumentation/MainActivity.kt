@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         print("This is new stuff in 2nd commit.")
 //        "5th commit reverting test"
-        print("Currently in experimental")
+        print("Currently in branch2 after merging - 2")
 
         textElement = findViewById<TextView>(R.id.textElement)
 
