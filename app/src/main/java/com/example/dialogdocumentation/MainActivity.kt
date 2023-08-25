@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        print("This is new stuff in 2nd commit.")
+
         textElement = findViewById<TextView>(R.id.textElement)
 
         textElement.setOnClickListener{
